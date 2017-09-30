@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+.header{
+position:relative;
+}
+
+
+body {
+  font-family: 'Oswald', sans-serif;
+  color: #cc33ff;
+  // background-image: url("../images/fancyleaf.jpg");
+  //background-size: 1413px 1321px;
+  //background-origin: padding-box;
+  //background-clip: content-box;
+}
+#hello{
+font-size: 48px;
+text-shadow: 2px 2px 7px #111111;
+
+}
+h1{
+color: #f9e6ff;
+
+}
+.main{
+  position:absolute;
+  top: 10%;
+  right: 32%;
+  background-color: #1f1f7a;
+  text-shadow: 2px 2px 7px #8600b3;
+}
+
+#items{
+position:absolute;
+top: 20%;
+
+
+}
+.on-sale{
+
+  color: brown;
+}
+.otherthing p{
+color: #000000;
+
+}
+#productlist .product{
+  color: #00FF00;
+
+}
+a:link{
+color: #e699ff;
+text-decoration: none;
+
+}
+a:visited{
+color:#8600b3;
+
+}
+a:hover{
+  text-decoration: underline;
+
+}
+input{
+color:green;
+
+}
+input.submit:hover{
+background-color: red;
+
+}
