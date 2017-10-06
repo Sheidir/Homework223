@@ -1,0 +1,47 @@
+@import url("reset.css");
+#box1 {
+  float:left;
+  clear:both;
+  margin: 7px;
+  width: 200px;
+
+border: 2px solid red;
+text-align: center;
+
+}
+#box2{
+float:right;
+margin: 7px;
+width: 200px;
+border-width: 2px;
+border-color: red;
+border-style: solid;
+text-align: center;
+
+
+}
+
+#box-holder{
+  height: 400;
+  width: 200;
+  margin: 7px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: blue;
+  clear:both;
+
+
+
+}
+.inner-box{
+  width: 600px;
+  text-align:center;
+  padding: 3px 30px;
+  border-width: medium;
+  border-color: green;
+  border-style: solid;
+  margin: 50px;
+
+
+
+}

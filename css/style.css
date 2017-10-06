@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url("reset.css");
 
 .header{
-position:relative;
+position:relative; //do you want this?
 }
 
 
@@ -12,7 +13,18 @@ body {
   //background-size: 1413px 1321px;
   //background-origin: padding-box;
   //background-clip: content-box;
+  background-color: lightgrey;
 }
+p{
+  margin: 5px;
+  padding: 5px;
+
+}
+ul{
+  margin: 5px 40px;
+
+}
+
 #hello{
 font-size: 48px;
 text-shadow: 2px 2px 7px #111111;
@@ -20,34 +32,34 @@ text-shadow: 2px 2px 7px #111111;
 }
 h1{
 color: #f9e6ff;
+font-size: 48px;
 
 }
-.main{
-  position:absolute;
+h1.main{
+  font-size: ;
+  margin: 20px, auto;
   top: 10%;
   right: 32%;
+  padding: 20px 5px;
   background-color: #1f1f7a;
   text-shadow: 2px 2px 7px #8600b3;
+  text-align: center;
+
 }
 
 #items{
-position:absolute;
-top: 20%;
+font-size:20px;
+}
+li{
+  margin: 10px;
+
+}
+#row_one, #row_two{
+display:inline-block;
 
 
 }
-.on-sale{
 
-  color: brown;
-}
-.otherthing p{
-color: #000000;
-
-}
-#productlist .product{
-  color: #00FF00;
-
-}
 a:link{
 color: #e699ff;
 text-decoration: none;
