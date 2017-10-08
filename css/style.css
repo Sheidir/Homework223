@@ -40,7 +40,7 @@ h1.main{
   margin: 20px, auto;
   top: 10%;
   right: 32%;
-  padding: 20px 5px;
+  padding: 50px 5px;
   background-color: #1f1f7a;
   text-shadow: 2px 2px 7px #8600b3;
   text-align: center;
@@ -54,11 +54,16 @@ li{
   margin: 10px;
 
 }
-#row_one, #row_two{
-display:inline-block;
+div.row  {
+text-align: center;
+}
+.image{
+  display:inline-block;
+  padding: 20px 20px;
 
 
 }
+
 
 a:link{
 color: #e699ff;
