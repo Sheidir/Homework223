@@ -61,9 +61,33 @@ li{
 div.row  {
 text-align: center;
 }
+#instructions{
+text-align: center;
+margin: auto;
+
+border: medium dotted green;
+width: 800px;
+height: 400px;
+padding-top: 50px;
+
+}
+#instructions li{
+width: 300px;
+background-color:#f9e6ff;
+margin: 20px auto;
+padding: 5px;
+
+}
+li.head{
+font-size: 30px;
+margin-bottom: 20px;
+}
+
 .image{
   display:inline-block;
   padding: 30px 20px 0px 0px;
+//  width:360px;
+//  height:220px;
 
 
 }
