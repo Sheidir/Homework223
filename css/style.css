@@ -33,6 +33,11 @@ figcaption{
 margin: 5px;
 
 }
+#testimonial{
+  text-align: center;
+  padding-top:20px;
+  color: black;
+}
 
 #hello{
 font-size: 48px;
@@ -133,9 +138,18 @@ margin-bottom: 20px;
 
 .image{
   display:inline-block;
-  padding: 30px 20px 0px 0px;
+  margin: 5px;
+  padding: 20px 15px 10px 15px;
+  background-color: darkgrey;
+
+
 //  width:360px;
 //  height:220px;
+
+
+}
+.image figcaption{
+color:white;
 
 
 }
