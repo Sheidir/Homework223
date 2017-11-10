@@ -9,10 +9,6 @@ position:relative; //do you want this?
 body {
   font-family: 'Oswald', sans-serif;
   color: #cc33ff;
-  // background-image: url("../images/fancyleaf.jpg");
-  //background-size: 1413px 1321px;
-  //background-origin: padding-box;
-  //background-clip: content-box;
   background-color: lightgrey;
 }
 #responsive{
@@ -106,6 +102,25 @@ left:auto;
 #items{
 font-size:20px;
 }
+.buttons li{
+background-color: #f9e6ff;
+padding: 8px 0px;
+text-align: center
+
+
+}
+#inputs{
+margin:auto;
+text-align: center;
+
+}
+#inputs input{
+margin-right:8px;
+
+
+}
+
+
 
 li{
   margin: 10px;
@@ -169,7 +184,9 @@ a:hover{
 
 }
 input{
-color:green;
+padding: 8px 8px;
+color:#1f1f7a;
+
 
 }
 input.submit:hover{
