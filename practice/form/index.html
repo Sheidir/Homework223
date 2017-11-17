@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test Page</title>
+	<style>
+
+		body {
+			background-color: #7E202D;
+			color: #FFFFFF;
+			font-size: 18px;
+		}
+
+		#logo img {
+			display: block;
+			margin: 0 auto;
+			width: 350px;
+		}
+
+		input[type=text] {
+			display: block;
+			margin: 10px 0;
+
+		}
+
+	</style>
+</head>
+<body>
+
+	<article>
+	<div id="logo">
+		<img src="http://svu.edu/wp-content/uploads/southern_virginia_university.png"/>
+	</div>
+
+	<h1>Let's play a game!</h1>
+
+	<form id="game-form">
+		<label for="players">Enter the number of players:</label>
+		<input id="players" type="number" value="0"/>
+		<input type="submit" value="Start!"/>
+	</form>
+	<form id="nameform">
+	</form>
+
+	<script>
+
+var x = getElementById("game-form");
+x.onsubmit = (players){
+	var y = getElementById("nameform");
+	for(i = 0; i< players; i++){
+		nameform.innerHTML = '<input type = "text" value = "Player" + (i+1) + name '
+
+
+	}
+
+	return true;
+}
+
+
+	</script>
+</body>
+</html>
