@@ -34,11 +34,7 @@ console.log(eventTarget);
 $box.attr('id',"lightbox");
 $img = $("<img>");
 $img.attr('src', eventTarget.src);
-$("#one").append('<i>');
-$('i').addClass("fa fa-arrow-circle-left");
 $box.append($img);
-$("#two").append('<i>');
-$('i:last').addClass("fa fa-arrow-circle-right");
 });
 $box.on("click", function(){
   console.log("AAAA");
